@@ -77,7 +77,7 @@ struct Student *struct_from_heap()
 int main()
 {
     
-    //instanstiating student using a function thar returns a structure
+    //instanstiating student using a function that returns a structure
     struct Student student = student_info("Ramesh", 10, "Good", 20, 15); 
     
     //Printing student's information using a function which access a structure as Call by value
